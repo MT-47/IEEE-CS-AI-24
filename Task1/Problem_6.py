@@ -1,7 +1,6 @@
-while True:
+num = int(input())
+while num < 0:
     num = int(input())
-    if num >= 0:
-        break
 
 sum = 0
 for i in range(2, num + 1,2):

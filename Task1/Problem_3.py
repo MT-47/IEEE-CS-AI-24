@@ -2,9 +2,9 @@ def factorial(num):
     if num == 0 or num == 1 : return 1
     else: return num * factorial(num-1)
 
-while True:
+num = int(input())
+while num < 0:
     num = int(input())
-    if num >= 0 : break
 
 #I don't know is this line is required but here it is 
 factorial_expression = ' * '.join(str(i) for i in range(1, num + 1))
